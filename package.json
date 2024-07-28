@@ -6,6 +6,7 @@
   "description": "Web Scraper Project",
   "main": "src/app.ts",
   "scripts": {
+    "build": "tsc",
     "prettier": "npx prettier . --write",
     "test": "npm test",
     "dev": "nodemon",
