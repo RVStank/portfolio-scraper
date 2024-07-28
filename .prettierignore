@@ -1,0 +1,31 @@
+# Directories
+node_modules/
+dist/
+build/
+.cache/
+.vscode/
+.idea/
+
+# Configuration Files
+package-lock.json
+yarn.lock
+.eslintignore
+.stylelintignore
+Dockerfile
+.dockerignore
+*.yml
+*.yaml
+
+# Static Assets
+*.png
+*.jpg
+*.svg
+*.woff
+*.woff2
+*.eot
+*.otf
+*.ttf
+
+# Documentation
+docs/
+README.md

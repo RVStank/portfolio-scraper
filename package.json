@@ -1,0 +1,32 @@
+{
+  "name": "portfolio-scraper",
+  "author": "RVStank",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Web Scraper Project",
+  "main": "src/app.ts",
+  "scripts": {
+    "prettier": "npx prettier . --write",
+    "test": "npm test",
+    "dev": "nodemon",
+    "start": "node dist/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RVStank/portfolio-scraper.git"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv-cli": "^7.4.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.0",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
